@@ -2,6 +2,7 @@ FROM golang:1.8 as backend
 RUN mkdir -p /go/src/github.com/frederikleemans/e3w
 ADD . /go/src/github.com/frederikleemans/e3w
 WORKDIR /go/src/github.com/frederikleemans/e3w
+RUN CGO_ENABLED=0 go get -d -v ./...
 RUN CGO_ENABLED=0 go build -i
 
 FROM node:8 as frontend
