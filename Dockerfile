@@ -27,7 +27,7 @@ RUN mkdir /app/home
 RUN addgroup -S e3wg
 
 # Create a user 'e3wu' under 'e3wg'
-RUN adduser -S -D -h /app/home e3wu e3wg
+RUN adduser -S -D --home /app/home --ingroup e3wg e3wu
 
 # Chown all the files to the app user.
 RUN chown -R e3wu:e3wg /app
