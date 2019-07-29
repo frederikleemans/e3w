@@ -1,8 +1,8 @@
 package routers
 
 import (
-	"github.com/coreos/etcd/auth/authpb"
-	"github.com/coreos/etcd/clientv3"
+	"go.etcd.io/coreos/etcd/auth/authpb"
+	"go.etcd.io/coreos/etcd/clientv3"
 	"github.com/gin-gonic/gin"
 	"github.com/frederikleemans/e3ch"
 )
