@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"go.etcd.io/coreos/etcd/version"
+	"go.etcd.io/etcd/version"
 	"github.com/gin-gonic/gin"
 	"github.com/frederikleemans/e3w/conf"
 	"github.com/frederikleemans/e3w/e3ch"

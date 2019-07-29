@@ -53,7 +53,7 @@ npm run publish
 
 3.backend
 
-a. Start etcd, such as [goreman](https://go.etcd.io/coreos/etcd/#running-a-local-etcd-cluster)
+a. Start etcd, such as [goreman](https://go.etcd.io/etcd/#running-a-local-etcd-cluster)
 
 b. Install packages by [dep](https://github.com/golang/dep) if needed, `dep ensure`
 

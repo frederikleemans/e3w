@@ -2,7 +2,7 @@
 
 
 [[projects]]
-  name = "go.etcd.io/coreos/etcd"
+  name = "go.etcd.io/etcd"
   packages = ["auth/authpb","clientv3","etcdserver/api/v3rpc/rpctypes","etcdserver/etcdserverpb","mvcc/mvccpb","pkg/tlsutil","pkg/transport","version"]
   revision = "694728c496e22dfa5719c78ff23cc982e15bcb2f"
   version = "v3.2.10"

@@ -1,7 +1,7 @@
 package routers
 
 import (
-	"go.etcd.io/coreos/etcd/clientv3"
+	"go.etcd.io/etcd/clientv3"
 	"github.com/gin-gonic/gin"
 )
 

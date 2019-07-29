@@ -2,8 +2,8 @@ package e3ch
 
 import (
 	"crypto/tls"
-	"go.etcd.io/coreos/etcd/clientv3"
-	"go.etcd.io/coreos/etcd/pkg/transport"
+	"go.etcd.io/etcd/clientv3"
+	"go.etcd.io/etcd/pkg/transport"
 	"github.com/frederikleemans/e3ch"
 	"github.com/frederikleemans/e3w/conf"
 )
