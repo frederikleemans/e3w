@@ -13,7 +13,7 @@ import (
 
 const (
 	PROGRAM_NAME    = "e3w"
-	PROGRAM_VERSION = "0.0.2"
+	PROGRAM_VERSION = "0.0.3"
 )
 
 var configFilepath string
@@ -38,10 +38,19 @@ func main() {
 		panic(err)
 	}
 
+	conf.Print(*config)
+
+	conf.OverrideByEnv(config)
+
+	conf.Print(*config)
+
 	client, err := e3ch.NewE3chClient(config)
 	if err != nil {
+		fmt.Println("Error constructing etcd client")
 		panic(err)
 	}
+
+	fmt.Println("Starting gin daemon...")
 
 	router := gin.Default()
 	router.UseRawPath = true
