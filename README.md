@@ -3,7 +3,7 @@ e3w
 
 etcd v3 Web UI based on [Golang](https://golang.org/) && [React](https://facebook.github.io/react/), copy from [consul ui](https://github.com/hashicorp/consul/tree/master/ui) :)
 
-supporting hierarchy on etcd v3, based on [e3ch](https://github.com/frederikleemans/e3ch)
+supporting hierarchy on etcd v3, based on [e3ch] (https://github.com/frederikleemans/e3ch)
 
 ## Quick Start
 
